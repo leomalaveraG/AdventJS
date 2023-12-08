@@ -1,6 +1,6 @@
 const findNaughtyStep = require("../findNaughtyStep");
 
-describe('Naughty elf', () => {
+
   describe('findNaughtyStep', () => {
     test('empty sequences', () => {
       expect(findNaughtyStep('', '')).toBe('');
@@ -22,6 +22,5 @@ describe('Naughty elf', () => {
       expect(findNaughtyStep('123', '12X3')).toBe('X');
     });
   
-    // Add more test cases as needed
+
   });
-})
