@@ -1,0 +1,16 @@
+{
+  "name": "reto_4",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Reto 4 of AdventJs",
+  "main": "decode.js",
+  "author": "Leonardo G",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "prod": "node decode.js",
+    "test": "jest --config jest.config.cjs"
+  }
+}
