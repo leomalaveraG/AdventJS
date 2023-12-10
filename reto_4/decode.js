@@ -14,4 +14,4 @@ function decode(message) {
      return result[0].join('');
  }
 
- module.exports = findNaughtyStep
+ module.exports = decode
