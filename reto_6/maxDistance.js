@@ -6,3 +6,5 @@ function maxDistance(movements) {
   return left-right+neutral>right-left+neutral ?
           left-right+neutral:right-left+neutral
 }
+
+module.exports = maxDistance;
